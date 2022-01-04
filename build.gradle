@@ -19,7 +19,7 @@ repositories {
 }
 
 dependencies {
-	implementation 'com.dgtlrepublic:anitomyJ:0.0.7'
+	implementation fileTree(dir: 'lib', include: ['*.jar'])
 	implementation 'org.springframework.boot:spring-boot-starter'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
